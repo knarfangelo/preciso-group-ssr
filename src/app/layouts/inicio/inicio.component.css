@@ -1,0 +1,30 @@
+main{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.filtro {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: linear-gradient(to bottom,#002150b7,#00215046);
+}
+
+.fondo-principal{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo{
+  position: absolute;
+  width: 30%;
+  bottom: 0;
+  right: 0;
+  padding: 100px;
+  z-index: 10;
+}
+
